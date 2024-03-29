@@ -1,0 +1,2 @@
+# Veritabanı Laboratuvarı Föy3
+
