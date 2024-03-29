@@ -1,0 +1,3 @@
+SELECT TOP 1 ad, soyad, maas
+FROM CALISANLAR
+ORDER BY maas DESC;

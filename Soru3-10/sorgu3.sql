@@ -1,0 +1,4 @@
+SELECT BIRIMLER.birim_ad, COUNT(*) AS calisan_sayisi
+FROM BIRIMLER
+JOIN CALISANLAR ON BIRIMLER.birim_id = CALISANLAR.calisan_birim_id
+GROUP BY BIRIMLER.birim_ad;
